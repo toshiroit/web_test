@@ -39,6 +39,9 @@
   .flex_searchBtn {
     display: none !important;
   }
+  .flex_menuMobi {
+    display: block !important;
+  }
 }
 
 @media only screen and (max-width: 786px) {
@@ -96,7 +99,21 @@
   }
 }
 
+@media only screen and (max-width: 492px) {
+  .cooperate_show__list {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .flex_menuMobi__main___menu____root_____item .wp2 {
+    width: 49% !important;
+  }
+}
+
 @media only screen and (max-width: 620px) {
+  .movieHot_show__content___title {
+    font-size: 1rem !important;
+  }
   .movie_playSw__list___item {
     width: 50% !important;
   }
@@ -249,6 +266,7 @@ html {
 }
 
 .main-wrapper .header_root__flex .flex_menuMobi {
+  display: none;
   position: relative;
 }
 

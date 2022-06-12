@@ -35,6 +35,9 @@
   .flex_searchBtn {
     display: none !important;
   }
+  .flex_menuMobi {
+    display: block !important;
+  }
 }
 @media only screen and (max-width: 786px) {
   .movieHot_show__content___time {
@@ -92,12 +95,24 @@
       text-align: center;
     }
   }
+
   .selectMovie_flex__w {
     padding: 0 !important;
   }
 }
+@media only screen and (max-width: 492px) {
+  .cooperate_show__list {
+    justify-content: center !important;
+  }
+  .flex_menuMobi__main___menu____root_____item .wp2 {
+    width: 49% !important;
+  }
+}
 
 @media only screen and (max-width: 620px) {
+  .movieHot_show__content___title {
+    font-size: 1rem !important;
+  }
   .movie_playSw__list___item {
     width: 50% !important;
   }
