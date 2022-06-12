@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1595px) {
+  .flex_menu__wp1 {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+  .flex_q {
+    flex-wrap: wrap;
+    span {
+      margin-bottom: 7px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 1326px) {
+  .movie_playSw__list___item {
+    width: 25% !important;
+  }
+  .selectMovie_flex {
+    &__w {
+      width: 49.9999% !important;
+    }
+  }
+}
+@media only screen and (max-width: 735px) {
+  .movie_playSw__list___item {
+    width: 33.3% !important;
+  }
+}
+
+@media only screen and (max-width: 957px) {
+  .flex_searchBtn {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .movieHot_show__content___time {
+    flex-wrap: wrap;
+    .movieHot_show__content___title {
+      text-align: center;
+    }
+  }
+  .movieHot_show {
+    .image {
+      height: 650px;
+    }
+  }
+  .movieHot_show__content {
+    .content {
+      margin: 30% auto !important;
+    }
+  }
+}
+@media only screen and (max-width: 703px) {
+  .selectMovie_flex {
+    &__w {
+      width: 99% !important;
+    }
+  }
+  .movie {
+    .contact {
+      display: none !important;
+    }
+  }
+}
+@media only screen and (max-width: 1198px) {
+  .flex_footer__col {
+    width: 50% !important;
+  }
+  .movieHot_show__content {
+    .content {
+      display: none !important;
+    }
+  }
+}
+@media only screen and (max-width: 376px) {
+  .text-image {
+    padding: 0 !important;
+    width: 100% !important;
+    .title {
+      text-align: center;
+    }
+    .detail {
+      margin: 0 !important;
+      text-align: center;
+      width: 100%;
+    }
+    .btnShow_detail {
+      text-align: center;
+    }
+  }
+  .selectMovie_flex__w {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .movie_playSw__list___item {
+    width: 50% !important;
+  }
+  .slider_image__list___item {
+    .text-image {
+      display: none !important;
+    }
+  }
+  .flex_footer {
+    flex-direction: column !important;
+    align-items: center;
+    &__col {
+      text-align: center;
+      width: 100% !important;
+    }
+  }
+  .container_wb {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}

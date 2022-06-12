@@ -1,0 +1,1730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/scss/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./style/js/aw.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="./style/plugins/fontawesome-free-6.1.1-web/css/all.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header class="header_root">
+        <div class="header_root__flex">
+          <div class="container_wb">
+            <div class="flex_main">
+              <div class="flex_menu">
+                <div class="logo_web">
+                  <div class="logo_web__content">
+                    <img
+                      src="https://pngteam.com/images/anime-transparent-image(5)-542x460_e9c2c994.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <ul class="flex_menu__wp1">
+                  <li class="flex_menu__wp1___item">Thiếu nhi</li>
+                  <li class="flex_menu__wp1___item">Comics</li>
+                  <li class="flex_menu__wp1___item">Anime</li>
+                  <li class="flex_menu__wp1___item">Phim</li>
+                  <li class="flex_menu__wp1___item">Âm nhạc</li>
+                  <li class="flex_menu__wp1___item">Thiếu nhi</li>
+                  <li class="flex_menu__wp1___item">Thiếu nhi</li>
+                </ul>
+              </div>
+              <div class="flex_menuMobi">
+                <div onclick="showMenuMobile()" class="flex_menuMobi__ico">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <div id="menuMobile" class="flex_menuMobi__main">
+                  <div class="flex_menuMobi__main___inner">
+                    <div class="flex_menuMobi__main___top">
+                      <div class="avatar">
+                        <img
+                          src="https://i.pinimg.com/736x/70/af/48/70af484cc16de4560211a072e0a2244c.jpg"
+                          alt=""
+                        />
+                        <div class="btnLogin">
+                          <div class="btn">
+                            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                            Đăng nhập
+                          </div>
+                          <div class="btn">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            Đăng ki
+                          </div>
+                        </div>
+                        <!-- <div class="detail">
+                          <span class="nameUser"> DAUNAMPC </span>
+                          <p>HELLU</p>
+                          <h4 class="sw">16.000 VNĐ</h4>
+                        </div> -->
+                      </div>
+                      <div onclick="closeMenuMobile()" class="close">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                      </div>
+                    </div>
+                    <div class="flex_menuMobi__main___search">
+                      <input
+                        type="search"
+                        name=""
+                        placeholder="Nhập tên phim mà bạn muốn tìm kiếm"
+                        id=""
+                      />
+                    </div>
+                    <div class="flex_menuMobi__main___menu">
+                      <ul class="flex_menuMobi__main___menu____root">
+                        <li class="flex_menuMobi__main___menu____root_____item">
+                          <div class="wp1">
+                            <i class="fa-solid fa-list-check"></i>
+                            <p>Thể loại anime</p>
+                          </div>
+                          <div class="menuc2 hide" id="menu_cp1">
+                            <ul class="flex_menuMobi__main___menu____root wp2">
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Tình cảm</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Tình cảm</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Tình cảm</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Tình cảm</p>
+                                </div>
+                              </li>
+                            </ul>
+                            <ul class="flex_menuMobi__main___menu____root wp2">
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Tình cảm</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Tình cảm</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Tình cảm</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Tình cảm</p>
+                                </div>
+                              </li>
+                            </ul>
+                            <ul class="flex_menuMobi__main___menu____root wp2">
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Tình cảm</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Học đường</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="flex_menuMobi__main___menu____root_____item">
+                          <div class="wp1">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>Năm sản xuất</p>
+                          </div>
+                          <div class="menuc2 hide" id="menu_cp2">
+                            <ul class="flex_menuMobi__main___menu____root wp2">
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Năm 2022</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Năm 2021</p>
+                                </div>
+                              </li>
+                            </ul>
+                            <ul class="flex_menuMobi__main___menu____root wp2">
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Năm 2022</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Năm 2021</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="flex_menuMobi__main___menu____root_____item">
+                          <div class="wp1">
+                            <i class="fa-solid fa-clapperboard"></i>
+                            <p>Phim Movie</p>
+                          </div>
+                        </li>
+                        <li class="flex_menuMobi__main___menu____root_____item">
+                          <div class="wp1">
+                            <i class="fa-solid fa-clapperboard"></i>
+                            <p>Phim lẻ</p>
+                          </div>
+                        </li>
+                        <li class="flex_menuMobi__main___menu____root_____item">
+                          <div class="wp1">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <p>Quốc gia</p>
+                          </div>
+                          <div class="menuc2 hide">
+                            <ul class="flex_menuMobi__main___menu____root wp2">
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Năm 2022</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Năm 2021</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="flex_menuMobi__main___menu____root_____item">
+                          <div class="wp1">
+                            <i class="fa-solid fa-list-check"></i>
+                            <p>Tin tức Anime</p>
+                          </div>
+                        </li>
+                        <li class="flex_menuMobi__main___menu____root_____item">
+                          <div class="wp1">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <p>Báo lỗi</p>
+                          </div>
+                          <div class="menuc2 hide">
+                            <ul class="flex_menuMobi__main___menu____root wp2">
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Năm 2022</p>
+                                </div>
+                              </li>
+                              <li
+                                class="flex_menuMobi__main___menu____root_____item item_wp2"
+                              >
+                                <div class="titlewp2">
+                                  <i class="fa-solid fa-circle-dot"></i>
+                                  <p>Năm 2021</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex_searchBtn">
+                <div class="flex_searchBtn__wp1">
+                  <div class="flex_searchBtn__wp1___search">
+                    <input
+                      type="search"
+                      name="search_movie"
+                      id=""
+                      onchange="onShowSearch(this.value)"
+                      placeholder="Nhập tên phim bạn muốn tìm kiếm ........."
+                    />
+                    <button type="button">
+                      <i class="color_icon fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <ul class="search_list">
+                      <div class="search_list__title">
+                        <h4>Danh sách tìm kiếm</h4>
+                        <i class="fa-solid fa-xmark"></i>
+                      </div>
+                      <div class="search_list__fow">
+                        <li class="search_list__fow___item">
+                          <div class="vl_search">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Siêu nhan gao</p>
+                          </div>
+                          <i class="fa-solid fa-xmark"></i>
+                        </li>
+
+                        <li class="search_list__fow___item">
+                          <div class="vl_search">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Siêu nhan gao</p>
+                          </div>
+                          <i class="fa-solid fa-xmark"></i>
+                        </li>
+
+                        <li class="search_list__fow___item">
+                          <div class="vl_search">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Siêu nhan gao</p>
+                          </div>
+                          <i class="fa-solid fa-xmark"></i>
+                        </li>
+                        <li class="search_list__fow___item">
+                          <div class="vl_search">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Siêu nhan gao</p>
+                          </div>
+                          <i class="fa-solid fa-xmark"></i>
+                        </li>
+
+                        <li class="search_list__fow___item">
+                          <div class="vl_search">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Siêu nhan gao</p>
+                          </div>
+                          <i class="fa-solid fa-xmark"></i>
+                        </li>
+                        <li class="search_list__fow___item">
+                          <div class="vl_search">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Siêu nhan gao</p>
+                          </div>
+                          <i class="fa-solid fa-xmark"></i>
+                        </li>
+                        <div class="listSearch">
+                          <h4 class="title__w">VIDEO</h4>
+                          <ul class="listSearch_list">
+                            <li class="listSearch_list__item">Black Cover</li>
+                            <li class="listSearch_list__item">One Piece</li>
+                            <li class="listSearch_list__item">One Piece</li>
+                            <li class="listSearch_list__item">One Piece</li>
+                            <li class="listSearch_list__item">One Piece</li>
+                            <li class="listSearch_list__item">One Piece</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                  <div class="flex_searchBtn__wp1___btnOnLo btn_singn">
+                    <button type="button">
+                      <i class="fa-solid fa-right-to-bracket"></i>
+                      Đăng nhập
+                    </button>
+                  </div>
+                  <div class="flex_searchBtn__wp1___btnOnLo btn_sinup">
+                    <button type="button">
+                      <i class="fa-solid fa-plus"></i>
+                      Đăng kí
+                    </button>
+                  </div>
+                  <div class="flex_searchBtn__wp1___btnOnLo btn_user">
+                    <button type="button">
+                      <i class="fa-solid fa-user"></i>
+                      <div class="setting">
+                        <h4 class="setting_title">Cài đặt</h4>
+                        <div class="setting_image">
+                          <img src="./style/images/setting_hq.jpg" alt="" />
+                        </div>
+                        <ul class="setting_list">
+                          <li class="setting_list__item">
+                            <i
+                              class="color-icon fa-solid fa-calendar-minus"
+                            ></i>
+                            <p>Cài đặt dòng dầu tiên cho mo</p>
+                          </li>
+                          <li class="setting_list__item">
+                            <i
+                              class="color-icon fa-solid fa-calendar-minus"
+                            ></i>
+                            <p>Cài đặt dòng dầu tiên cho mo</p>
+                          </li>
+                          <li class="setting_list__item">
+                            <i
+                              class="color-icon fa-solid fa-calendar-minus"
+                            ></i>
+                            <p>Cài đặt dòng dầu tiên cho mo</p>
+                          </li>
+                          <li class="setting_list__item">
+                            <i
+                              class="color-icon fa-solid fa-calendar-minus"
+                            ></i>
+                            <p>Cài đặt dòng dầu tiên cho mo</p>
+                          </li>
+                          <li class="setting_list__item">
+                            <i
+                              class="color-icon fa-solid fa-calendar-minus"
+                            ></i>
+                            <p>Cài đặt dòng dầu tiên cho mo</p>
+                          </li>
+                          <li class="setting_list__item">
+                            <i
+                              class="color-icon fa-solid fa-calendar-minus"
+                            ></i>
+                            <p>Cài đặt dòng dầu tiên cho mo</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider_image">
+          <ul class="slider_image__list">
+            <li class="slider_image__list___item">
+              <img
+                src="https://images.hdqwalls.com/download/anime-girl-bunny-hairs-5k-0l-2048x1152.jpg"
+                alt=""
+                class=""
+              />
+              <div class="text-image">
+                <h4 class="title">conan thám tử lừng danh</h4>
+                <p class="detail">
+                  Bộ phim nói về những phi phụ phá án của cậu nhóc Conan @import
+                  url@import
+                  url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+                  @import
+                  url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+                  ('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+                  @import 12444444444444444444444444
+                </p>
+                <h4 class="date_movie">Năm phát hành : <b>2018</b></h4>
+                <div class="btnShow_detail">
+                  <button class="btnShow">Xem chi tiết</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="container">
+        <div class="container_wb">
+          <div class="hot_listSeries">
+            <span class="hot_listSeries__title">
+              <h4 class="hot_listSeries__title___w1">
+                Hot Series Hiện nay
+                <i class="color-icon fa-solid fa-chevron-right"></i>
+              </h4>
+              <span class="hot_listSeries__title___w2">
+                <i class="color-ico fa-solid fa-chevron-left"></i>
+                <i class="color-ico fa-solid fa-chevron-right"></i>
+              </span>
+            </span>
+            <ul class="hot_listSeries__list">
+              <li class="hot_listSeries__item">
+                <img
+                  src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/thumbnail_title_revised-91818d482e72-1649834178978-k4TT81z2.png?v=0&maxW=300&format=webp"
+                  alt=""
+                />
+              </li>
+              <li class="hot_listSeries__item">
+                <img
+                  src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/thumbnail_title_revised-91818d482e72-1649834178978-k4TT81z2.png?v=0&maxW=300&format=webp"
+                  alt=""
+                />
+              </li>
+              <li class="hot_listSeries__item">
+                <img
+                  src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/thumbnail_title_revised-91818d482e72-1649834178978-k4TT81z2.png?v=0&maxW=300&format=webp"
+                  alt=""
+                />
+              </li>
+              <li class="hot_listSeries__item">
+                <img
+                  src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/thumbnail_title_revised-91818d482e72-1649834178978-k4TT81z2.png?v=0&maxW=300&format=webp"
+                  alt=""
+                />
+              </li>
+              <li class="hot_listSeries__item">
+                <img
+                  src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/thumbnail_title_revised-91818d482e72-1649834178978-k4TT81z2.png?v=0&maxW=300&format=webp"
+                  alt=""
+                />
+              </li>
+
+              <li class="hot_listSeries__item">
+                <img
+                  src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/thumbnail_title_revised-91818d482e72-1649834178978-k4TT81z2.png?v=0&maxW=300&format=webp"
+                  alt=""
+                />
+              </li>
+
+              <li class="hot_listSeries__item">
+                <img
+                  src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/thumbnail_title_revised-91818d482e72-1649834178978-k4TT81z2.png?v=0&maxW=300&format=webp"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="movie">
+            <div class="movie_show">
+              <div class="movie_show__title">
+                <h4>Tên phim hot</h4>
+              </div>
+              <ul class="movie_show__list">
+                <li class="movie_show__list___item">
+                  <div class="image_show">
+                    <img
+                      src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/thanh_guom_diet_quy_s2_ky_vien_tran_long_tieng_tap_1_am_tru_uzui_tengen_horizontal-5a3f871e23ad-1643107332784-oYqX3Ykt.jpg?v=0&maxW=320&format=webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_show">
+                    <p>Thanh Gươm Diệt Quỷ ss2 214124</p>
+                  </div>
+                </li>
+                <li class="movie_show__list___item">
+                  <div class="image_show">
+                    <img
+                      src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/thanh_guom_diet_quy_s2_ky_vien_tran_long_tieng_tap_1_am_tru_uzui_tengen_horizontal-5a3f871e23ad-1643107332784-oYqX3Ykt.jpg?v=0&maxW=320&format=webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_show">
+                    <p>Thanh Gươm Diệt Quỷ ss2 214124</p>
+                  </div>
+                </li>
+                <li class="movie_show__list___item">
+                  <div class="image_show">
+                    <img
+                      src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/thanh_guom_diet_quy_s2_ky_vien_tran_long_tieng_tap_1_am_tru_uzui_tengen_horizontal-5a3f871e23ad-1643107332784-oYqX3Ykt.jpg?v=0&maxW=320&format=webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_show">
+                    <p>Thanh Gươm Diệt Quỷ ss2 214124</p>
+                  </div>
+                </li>
+                <li class="movie_show__list___item">
+                  <div class="image_show">
+                    <img
+                      src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/thanh_guom_diet_quy_s2_ky_vien_tran_long_tieng_tap_1_am_tru_uzui_tengen_horizontal-5a3f871e23ad-1643107332784-oYqX3Ykt.jpg?v=0&maxW=320&format=webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_show">
+                    <p>Thanh Gươm Diệt Quỷ ss2 214124</p>
+                  </div>
+                </li>
+                <li class="movie_show__list___item">
+                  <div class="image_show">
+                    <img
+                      src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/thanh_guom_diet_quy_s2_ky_vien_tran_long_tieng_tap_1_am_tru_uzui_tengen_horizontal-5a3f871e23ad-1643107332784-oYqX3Ykt.jpg?v=0&maxW=320&format=webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_show">
+                    <p>Thanh Gươm Diệt Quỷ ss2 214124</p>
+                  </div>
+                </li>
+                <li class="movie_show__list___item">
+                  <div class="image_show">
+                    <img
+                      src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/thanh_guom_diet_quy_s2_ky_vien_tran_long_tieng_tap_1_am_tru_uzui_tengen_horizontal-5a3f871e23ad-1643107332784-oYqX3Ykt.jpg?v=0&maxW=320&format=webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_show">
+                    <p>Thanh Gươm Diệt Quỷ ss2 214124</p>
+                  </div>
+                </li>
+                <li class="movie_show__list___item">
+                  <div class="image_show">
+                    <img
+                      src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/thanh_guom_diet_quy_s2_ky_vien_tran_long_tieng_tap_1_am_tru_uzui_tengen_horizontal-5a3f871e23ad-1643107332784-oYqX3Ykt.jpg?v=0&maxW=320&format=webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_show">
+                    <p>Thanh Gươm Diệt Quỷ ss2 214124</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="movie_playSw">
+              <div class="movie_playSw_wt">
+                <div class="movie_playSw__title">
+                  <h4 class="title_w1">Phim mới - Xem ngay</h4>
+                  <span class="title_w2">
+                    <li>
+                      <i class="color-ico fa-solid fa-chevron-left"></i>
+                    </li>
+                    <li>
+                      <i class="color-ico fa-solid fa-chevron-right"></i>
+                    </li>
+                  </span>
+                </div>
+                <ul class="movie_playSw__list">
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="movie_playSw_wt">
+                <div class="movie_playSw__title">
+                  <h4 class="title_w1">Có thể bạn quan tâm</h4>
+                  <span class="title_w2">
+                    <li>
+                      <i class="color-ico fa-solid fa-chevron-left"></i>
+                    </li>
+                    <li>
+                      <i class="color-ico fa-solid fa-chevron-right"></i>
+                    </li>
+                  </span>
+                </div>
+                <ul class="movie_playSw__list">
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="movie_playSw_wt">
+                <div class="movie_playSw__title">
+                  <h4 class="title_w1">Phim đang HOT</h4>
+                  <span class="title_w2">
+                    <li>
+                      <i class="color-ico fa-solid fa-chevron-left"></i>
+                    </li>
+                    <li>
+                      <i class="color-ico fa-solid fa-chevron-right"></i>
+                    </li>
+                  </span>
+                </div>
+                <ul class="movie_playSw__list">
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+
+                  <li class="movie_playSw__list___item">
+                    <div class="ep">14/249</div>
+                    <div class="star">10 <i class="fa-solid fa-star"></i></div>
+                    <div class="image">
+                      <img
+                        src="https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/vertical_poster-501d80e570e6-1654677342936-U9tNC5Pw.jpg?v=0&maxW=260&format=webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <p>Conan, Thám tử lừng danh tập 4812/1561</p>
+                    </div>
+                    <div class="flex_q">
+                      <span class="lt_w">Lông tiếng </span>
+                      <span class="mv_sucess mv_w">Đã hoàn thanh </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="selectMovie">
+              <div class="selectMovie_flex">
+                <div class="selectMovie_flex__w">
+                  <div class="selectMovie_flex__w___title">
+                    <h4 class="title">Phim lẻ</h4>
+                    <div class="flex_select">
+                      <li class="flex_select__item flex_select__active">
+                        Xem nhiều
+                      </li>
+                      <li class="flex_select__item">Mới cập nhật</li>
+                      <li class="flex_select__item">Mới nhất</li>
+                    </div>
+                  </div>
+                  <ul class="selectMovie_flex__w___show">
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="selectMovie_flex__w">
+                  <div class="selectMovie_flex__w___title">
+                    <h4 class="title">Phim lẻ</h4>
+                    <div class="flex_select">
+                      <li class="flex_select__item flex_select__active">
+                        Xem nhiều
+                      </li>
+                      <li class="flex_select__item">Mới cập nhật</li>
+                      <li class="flex_select__item">Mới nhất</li>
+                    </div>
+                  </div>
+                  <ul class="selectMovie_flex__w___show">
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="selectMovie_flex__w">
+                  <div class="selectMovie_flex__w___title">
+                    <h4 class="title">Phim lẻ</h4>
+                    <div class="flex_select">
+                      <li class="flex_select__item flex_select__active">
+                        Xem nhiều
+                      </li>
+                      <li class="flex_select__item">Mới cập nhật</li>
+                      <li class="flex_select__item">Mới nhất</li>
+                    </div>
+                  </div>
+                  <ul class="selectMovie_flex__w___show">
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+
+                    <li class="selectMovie_flex__w___show____item">
+                      <div class="image">
+                        <img
+                          src="https://phimhay.live/wp-content/uploads/2022/05/spl-tvhayorg-17438-300x450.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name_ow">
+                        <p class="name">Thành phố mất tich 124124124124124</p>
+                        <p class="detail">The on wqrqwr qư</p>
+                        <div class="view">3k3 Lượt xem</div>
+                      </div>
+                      <div class="op">
+                        <span class="w">122 Phút</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="movieHot">
+              <div class="movieHot_show">
+                <div class="image">
+                  <video
+                    autoplay
+                    loop
+                    muted
+                    src="./style/videos/sword-art-online.mp4"
+                  ></video>
+                </div>
+                <div class="movieHot_show__content">
+                  <div id="videoTrailer" class="movieHot_show__content___video">
+                    <div class="video_play">
+                      <iframe
+                        class="video_play"
+                        width="420"
+                        height="345"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"
+                      >
+                      </iframe>
+                      <div onclick=" onCloseVideoTrailer()" class="close">
+                        <i class="fa-solid fa-xmark"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <h4 class="movieHot_show__content___title">
+                    Bộ Phim Đang HOT chuẩn bị công chiếu sau
+                  </h4>
+                  <div class="content">
+                    <h4 class="title">CÔNG CHIẾU SAU</h4>
+                    <ul class="movieHot_show__content___time">
+                      <li class="movieHot_show__content___time____item">
+                        1 Ngày
+                      </li>
+                      <li class="movieHot_show__content___time____item">
+                        1 Giờ
+                      </li>
+                      <li class="movieHot_show__content___time____item">
+                        1 Phút
+                      </li>
+                      <li class="movieHot_show__content___time____item">
+                        1 Giây
+                      </li>
+                    </ul>
+                    <div id="showVideo" class="movieTrailer">
+                      <button onclick="onShowVideoTrailer()" type="button">
+                        Xem Trailer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cooperate">
+              <div class="cooperate_show">
+                <h4 class="title">CÁC NHÀ HỢP TÁC VỚI CHUNG TÔI</h4>
+                <ul class="cooperate_show__list">
+                  <li class="cooperate_show__list___item">
+                    <img
+                      src="https://yt3.ggpht.com/fcGNMehIsr_C_WVq_L3DaBJMMkNr8MsIQ0skTiB-RIJaLDy1na1hbV6kjztaUp39VsHIWLgwCg=s900-c-k-c0x00ffffff-no-rj"
+                      alt=""
+                    />
+                    <p>MUSE VN</p>
+                  </li>
+                  <li class="cooperate_show__list___item">
+                    <img
+                      src="https://yt3.ggpht.com/fcGNMehIsr_C_WVq_L3DaBJMMkNr8MsIQ0skTiB-RIJaLDy1na1hbV6kjztaUp39VsHIWLgwCg=s900-c-k-c0x00ffffff-no-rj"
+                      alt=""
+                    />
+                    <p>MUSE VN</p>
+                  </li>
+                  <li class="cooperate_show__list___item">
+                    <img
+                      src="https://yt3.ggpht.com/fcGNMehIsr_C_WVq_L3DaBJMMkNr8MsIQ0skTiB-RIJaLDy1na1hbV6kjztaUp39VsHIWLgwCg=s900-c-k-c0x00ffffff-no-rj"
+                      alt=""
+                    />
+                    <p>MUSE VN</p>
+                  </li>
+                  <li class="cooperate_show__list___item">
+                    <img
+                      src="https://yt3.ggpht.com/fcGNMehIsr_C_WVq_L3DaBJMMkNr8MsIQ0skTiB-RIJaLDy1na1hbV6kjztaUp39VsHIWLgwCg=s900-c-k-c0x00ffffff-no-rj"
+                      alt=""
+                    />
+                    <p>MUSE VN</p>
+                  </li>
+                  <li class="cooperate_show__list___item">
+                    <img
+                      src="https://yt3.ggpht.com/fcGNMehIsr_C_WVq_L3DaBJMMkNr8MsIQ0skTiB-RIJaLDy1na1hbV6kjztaUp39VsHIWLgwCg=s900-c-k-c0x00ffffff-no-rj"
+                      alt=""
+                    />
+                    <p>MUSE VN</p>
+                  </li>
+                  <li class="cooperate_show__list___item">
+                    <img
+                      src="https://yt3.ggpht.com/fcGNMehIsr_C_WVq_L3DaBJMMkNr8MsIQ0skTiB-RIJaLDy1na1hbV6kjztaUp39VsHIWLgwCg=s900-c-k-c0x00ffffff-no-rj"
+                      alt=""
+                    />
+                    <p>MUSE VN</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="contact_content">
+                <div class="image">
+                  <img src="./style/images/imager_64597.jpg" alt="" />
+                </div>
+                <div class="text">
+                  <div class="contact_content__title">
+                    <h4 class="w">
+                      Bạn Muốn Kết Nối Với Chung tôi - Hãy kết nối chúng tôi qua
+                      Email của bạn
+                    </h4>
+                  </div>
+                  <div class="contact_content__in">
+                    <div class="send">
+                      <input
+                        type="email"
+                        placeholder="Điền thông tin Email của bạn vào đây "
+                        name=""
+                        id=""
+                      />
+                      <i class="color-icon fa-solid fa-paper-plane"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer-web">
+        <div class="container_wb">
+          <div class="flex_footer">
+            <div class="flex_footer__col flex_footer__logo">
+              <div class="image">
+                <img
+                  src="https://pngteam.com/images/anime-transparent-image(5)-542x460_e9c2c994.png"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <p>
+                  Mạng xã hội chia sẻ các nội dung video giải trí chất lượng
+                  cao, phù hợp mọi độ tuổi và an toàn cho trẻ em.
+                </p>
+              </div>
+              <ul class="appDownload">
+                <li class="appDownload_item">
+                  <img
+                    src="https://cdn.popsww.com/popsapp/assets/images/icons/appstore.png?format=webp"
+                    alt=""
+                  />
+                </li>
+                <li class="appDownload_item">
+                  <img
+                    src="https://cdn.popsww.com/popsapp/assets/images/icons/appstore.png?format=webp"
+                    alt=""
+                  />
+                </li>
+                <li class="appDownload_item">
+                  <img
+                    src="https://cdn.popsww.com/popsapp/assets/images/icons/appstore.png?format=webp"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="flex_footer__col">
+              <div class="title">
+                <h4>Nội dung người lớn</h4>
+              </div>
+              <ul class="flex_footer__col__list">
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Trang chủ</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Anime</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Show</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">18+</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Kinh dị</p>
+                </li>
+              </ul>
+              <ul class="flex_footer__col__list">
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Trang chủ</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Trang chủ</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Trang chủ</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Trang chủ</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Trang chủ</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Trang chủ</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Trang chủ</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Trang chủ</p>
+                </li>
+              </ul>
+            </div>
+            <div class="flex_footer__col">
+              <div class="title">
+                <h4>Nội dung ANIME</h4>
+              </div>
+              <ul class="flex_footer__col__list">
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Tin tức Anime</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Chuyển sinh</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Kì bí</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Phiêu lưu</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Thám tử</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Kinh dị</p>
+                </li>
+              </ul>
+              <ul class="flex_footer__col__list">
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Tình cảm</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Chuyển sinh</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Kì bí</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Phiêu lưu</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Thám tử</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Kinh dị</p>
+                </li>
+              </ul>
+            </div>
+            <div class="flex_footer__col">
+              <div class="title">
+                <h4>Hỗ trợ & Báo lỗi</h4>
+              </div>
+              <ul class="flex_footer__col__list">
+                <li class="flex_footer__col__list___item">
+                  <p class="link">FAQs</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Chính Sách Bảo Mật</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Điều Khoản Và Điều Kiện Sử Dụng</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Điều Khoản Thanh Toán</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Chính Sách Và Quy Trình Xử Lý Khiếu Nại</p>
+                </li>
+                <li class="flex_footer__col__list___item">
+                  <p class="link">Kinh dị</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="./style/js/main.js"></script>
+  <link rel="stylesheet" href="./style/js/aw.min.js" />
+</html>
